@@ -10,5 +10,10 @@ import SwiftUI
 final class ListViewModel {
     
     @ObservationIgnored
-    let animationNames: [String] = ["Wiggle", "Rotate", "Breathe"]
+    let animations: [AnimationModel] = [
+        AnimationModel(name: "Wiggle", type: .wiggle),
+        AnimationModel(name: "Rotate", type: .rotate),
+        AnimationModel(name: "Breathe", type: .breathe),
+        AnimationModel(name: "Replace", type: .replace),
+    ]
 }

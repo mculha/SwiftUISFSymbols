@@ -14,12 +14,17 @@ struct ListView: View {
     var body: some View {
         NavigationStack {
             List {
-                ForEach(viewModel.animationNames, id: \.self) { name in
-                    Text(name)
-                        .font(.system(size: 16, weight: .regular))
+                ForEach(viewModel.animations, id: \.self) { model in
+                    NavigationLink(value: model) {
+                        Text(model.name)
+                            .font(.system(size: 16, weight: .regular))
+                    }
                 }
             }
             .clipShape(.rect(cornerRadius: 20))
+            .navigationDestination(for: AnimationModel.self) { model in
+                model.type.destination
+            }
         }
         .padding()
     }
