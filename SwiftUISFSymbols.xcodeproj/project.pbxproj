@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E95DFCFA2C62B799007BC2CA /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95DFCF92C62B799007BC2CA /* ListView.swift */; };
+		E95DFCFC2C62B79F007BC2CA /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95DFCFB2C62B79D007BC2CA /* ListViewModel.swift */; };
 		E9FA94102C5EC89F00E9F5BD /* SwiftUISFSymbolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FA940F2C5EC89F00E9F5BD /* SwiftUISFSymbolsApp.swift */; };
-		E9FA94122C5EC89F00E9F5BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FA94112C5EC89F00E9F5BD /* ContentView.swift */; };
 		E9FA94142C5EC8A100E9F5BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9FA94132C5EC8A100E9F5BD /* Assets.xcassets */; };
 		E9FA94172C5EC8A100E9F5BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9FA94162C5EC8A100E9F5BD /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E95DFCF92C62B799007BC2CA /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		E95DFCFB2C62B79D007BC2CA /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		E9FA940C2C5EC89F00E9F5BD /* SwiftUISFSymbols.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUISFSymbols.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9FA940F2C5EC89F00E9F5BD /* SwiftUISFSymbolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISFSymbolsApp.swift; sourceTree = "<group>"; };
-		E9FA94112C5EC89F00E9F5BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E9FA94132C5EC8A100E9F5BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9FA94162C5EC8A100E9F5BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -32,6 +34,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E95DFCF42C62B767007BC2CA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E95DFCF82C62B78D007BC2CA /* List */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E95DFCF82C62B78D007BC2CA /* List */ = {
+			isa = PBXGroup;
+			children = (
+				E95DFCFB2C62B79D007BC2CA /* ListViewModel.swift */,
+				E95DFCF92C62B799007BC2CA /* ListView.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
 		E9FA94032C5EC89F00E9F5BD = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +70,8 @@
 		E9FA940E2C5EC89F00E9F5BD /* SwiftUISFSymbols */ = {
 			isa = PBXGroup;
 			children = (
+				E95DFCF42C62B767007BC2CA /* View */,
 				E9FA940F2C5EC89F00E9F5BD /* SwiftUISFSymbolsApp.swift */,
-				E9FA94112C5EC89F00E9F5BD /* ContentView.swift */,
 				E9FA94132C5EC8A100E9F5BD /* Assets.xcassets */,
 				E9FA94152C5EC8A100E9F5BD /* Preview Content */,
 			);
@@ -137,8 +156,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9FA94122C5EC89F00E9F5BD /* ContentView.swift in Sources */,
 				E9FA94102C5EC89F00E9F5BD /* SwiftUISFSymbolsApp.swift in Sources */,
+				E95DFCFC2C62B79F007BC2CA /* ListViewModel.swift in Sources */,
+				E95DFCFA2C62B799007BC2CA /* ListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +292,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUISFSymbols/Preview Content\"";
+				DEVELOPMENT_TEAM = HU43CL53AU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -300,6 +321,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUISFSymbols/Preview Content\"";
+				DEVELOPMENT_TEAM = HU43CL53AU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
