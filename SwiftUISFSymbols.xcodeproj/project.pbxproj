@@ -12,6 +12,8 @@
 		E95DFCFF2C62C0DE007BC2CA /* WiggleAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95DFCFE2C62C0DE007BC2CA /* WiggleAnimationView.swift */; };
 		E95DFD012C62C0E6007BC2CA /* WiggleAnimationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95DFD002C62C0E6007BC2CA /* WiggleAnimationViewModel.swift */; };
 		E95DFD032C62C5AA007BC2CA /* AnimationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95DFD022C62C5A6007BC2CA /* AnimationModel.swift */; };
+		E95DFD082C656372007BC2CA /* ReplaceAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95DFD072C656372007BC2CA /* ReplaceAnimationView.swift */; };
+		E95DFD0A2C65637E007BC2CA /* ReplaceAnimationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95DFD092C656378007BC2CA /* ReplaceAnimationViewModel.swift */; };
 		E9FA94102C5EC89F00E9F5BD /* SwiftUISFSymbolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FA940F2C5EC89F00E9F5BD /* SwiftUISFSymbolsApp.swift */; };
 		E9FA94142C5EC8A100E9F5BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9FA94132C5EC8A100E9F5BD /* Assets.xcassets */; };
 		E9FA94172C5EC8A100E9F5BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9FA94162C5EC8A100E9F5BD /* Preview Assets.xcassets */; };
@@ -23,6 +25,8 @@
 		E95DFCFE2C62C0DE007BC2CA /* WiggleAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiggleAnimationView.swift; sourceTree = "<group>"; };
 		E95DFD002C62C0E6007BC2CA /* WiggleAnimationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiggleAnimationViewModel.swift; sourceTree = "<group>"; };
 		E95DFD022C62C5A6007BC2CA /* AnimationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationModel.swift; sourceTree = "<group>"; };
+		E95DFD072C656372007BC2CA /* ReplaceAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceAnimationView.swift; sourceTree = "<group>"; };
+		E95DFD092C656378007BC2CA /* ReplaceAnimationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceAnimationViewModel.swift; sourceTree = "<group>"; };
 		E9FA940C2C5EC89F00E9F5BD /* SwiftUISFSymbols.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUISFSymbols.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9FA940F2C5EC89F00E9F5BD /* SwiftUISFSymbolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISFSymbolsApp.swift; sourceTree = "<group>"; };
 		E9FA94132C5EC8A100E9F5BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,7 +47,10 @@
 		E95DFCF42C62B767007BC2CA /* View */ = {
 			isa = PBXGroup;
 			children = (
-				E95DFCFD2C62C0CD007BC2CA /* New Group */,
+				E95DFD062C65635E007BC2CA /* Replace */,
+				E95DFD052C656358007BC2CA /* Breathe */,
+				E95DFD042C656353007BC2CA /* Rotate */,
+				E95DFCFD2C62C0CD007BC2CA /* Wiggle */,
 				E95DFCF82C62B78D007BC2CA /* List */,
 			);
 			path = View;
@@ -59,13 +66,36 @@
 			path = List;
 			sourceTree = "<group>";
 		};
-		E95DFCFD2C62C0CD007BC2CA /* New Group */ = {
+		E95DFCFD2C62C0CD007BC2CA /* Wiggle */ = {
 			isa = PBXGroup;
 			children = (
 				E95DFCFE2C62C0DE007BC2CA /* WiggleAnimationView.swift */,
 				E95DFD002C62C0E6007BC2CA /* WiggleAnimationViewModel.swift */,
 			);
-			path = "New Group";
+			path = Wiggle;
+			sourceTree = "<group>";
+		};
+		E95DFD042C656353007BC2CA /* Rotate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Rotate;
+			sourceTree = "<group>";
+		};
+		E95DFD052C656358007BC2CA /* Breathe */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Breathe;
+			sourceTree = "<group>";
+		};
+		E95DFD062C65635E007BC2CA /* Replace */ = {
+			isa = PBXGroup;
+			children = (
+				E95DFD092C656378007BC2CA /* ReplaceAnimationViewModel.swift */,
+				E95DFD072C656372007BC2CA /* ReplaceAnimationView.swift */,
+			);
+			path = Replace;
 			sourceTree = "<group>";
 		};
 		E9FA94032C5EC89F00E9F5BD = {
@@ -175,6 +205,8 @@
 			files = (
 				E9FA94102C5EC89F00E9F5BD /* SwiftUISFSymbolsApp.swift in Sources */,
 				E95DFD012C62C0E6007BC2CA /* WiggleAnimationViewModel.swift in Sources */,
+				E95DFD0A2C65637E007BC2CA /* ReplaceAnimationViewModel.swift in Sources */,
+				E95DFD082C656372007BC2CA /* ReplaceAnimationView.swift in Sources */,
 				E95DFCFC2C62B79F007BC2CA /* ListViewModel.swift in Sources */,
 				E95DFCFF2C62C0DE007BC2CA /* WiggleAnimationView.swift in Sources */,
 				E95DFD032C62C5AA007BC2CA /* AnimationModel.swift in Sources */,
