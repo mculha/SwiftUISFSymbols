@@ -16,6 +16,8 @@
 		E95DFD0A2C65637E007BC2CA /* ReplaceAnimationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95DFD092C656378007BC2CA /* ReplaceAnimationViewModel.swift */; };
 		E95DFD0C2C66B0E3007BC2CA /* RotateAnimationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95DFD0B2C66B0D7007BC2CA /* RotateAnimationViewModel.swift */; };
 		E95DFD0E2C66B0FC007BC2CA /* RotateAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95DFD0D2C66B0FC007BC2CA /* RotateAnimationView.swift */; };
+		E95DFD102C66B13E007BC2CA /* BreatheAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95DFD0F2C66B13E007BC2CA /* BreatheAnimationView.swift */; };
+		E95DFD122C66B148007BC2CA /* BreatheAnimationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95DFD112C66B144007BC2CA /* BreatheAnimationViewModel.swift */; };
 		E9FA94102C5EC89F00E9F5BD /* SwiftUISFSymbolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FA940F2C5EC89F00E9F5BD /* SwiftUISFSymbolsApp.swift */; };
 		E9FA94142C5EC8A100E9F5BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9FA94132C5EC8A100E9F5BD /* Assets.xcassets */; };
 		E9FA94172C5EC8A100E9F5BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9FA94162C5EC8A100E9F5BD /* Preview Assets.xcassets */; };
@@ -31,6 +33,8 @@
 		E95DFD092C656378007BC2CA /* ReplaceAnimationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceAnimationViewModel.swift; sourceTree = "<group>"; };
 		E95DFD0B2C66B0D7007BC2CA /* RotateAnimationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateAnimationViewModel.swift; sourceTree = "<group>"; };
 		E95DFD0D2C66B0FC007BC2CA /* RotateAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateAnimationView.swift; sourceTree = "<group>"; };
+		E95DFD0F2C66B13E007BC2CA /* BreatheAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheAnimationView.swift; sourceTree = "<group>"; };
+		E95DFD112C66B144007BC2CA /* BreatheAnimationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheAnimationViewModel.swift; sourceTree = "<group>"; };
 		E9FA940C2C5EC89F00E9F5BD /* SwiftUISFSymbols.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUISFSymbols.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9FA940F2C5EC89F00E9F5BD /* SwiftUISFSymbolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISFSymbolsApp.swift; sourceTree = "<group>"; };
 		E9FA94132C5EC8A100E9F5BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -91,6 +95,8 @@
 		E95DFD052C656358007BC2CA /* Breathe */ = {
 			isa = PBXGroup;
 			children = (
+				E95DFD112C66B144007BC2CA /* BreatheAnimationViewModel.swift */,
+				E95DFD0F2C66B13E007BC2CA /* BreatheAnimationView.swift */,
 			);
 			path = Breathe;
 			sourceTree = "<group>";
@@ -214,9 +220,11 @@
 				E95DFD0A2C65637E007BC2CA /* ReplaceAnimationViewModel.swift in Sources */,
 				E95DFD082C656372007BC2CA /* ReplaceAnimationView.swift in Sources */,
 				E95DFCFC2C62B79F007BC2CA /* ListViewModel.swift in Sources */,
+				E95DFD102C66B13E007BC2CA /* BreatheAnimationView.swift in Sources */,
 				E95DFCFF2C62C0DE007BC2CA /* WiggleAnimationView.swift in Sources */,
 				E95DFD0E2C66B0FC007BC2CA /* RotateAnimationView.swift in Sources */,
 				E95DFD032C62C5AA007BC2CA /* AnimationModel.swift in Sources */,
+				E95DFD122C66B148007BC2CA /* BreatheAnimationViewModel.swift in Sources */,
 				E95DFD0C2C66B0E3007BC2CA /* RotateAnimationViewModel.swift in Sources */,
 				E95DFCFA2C62B799007BC2CA /* ListView.swift in Sources */,
 			);
