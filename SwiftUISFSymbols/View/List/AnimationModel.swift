@@ -25,7 +25,7 @@ struct AnimationModel: Hashable {
             case .breathe:
                 EmptyView()
             case .rotate:
-                EmptyView()
+                RotateAnimationView()
             case .replace:
                 ReplaceAnimationView()
             }

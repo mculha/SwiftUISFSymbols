@@ -14,6 +14,8 @@
 		E95DFD032C62C5AA007BC2CA /* AnimationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95DFD022C62C5A6007BC2CA /* AnimationModel.swift */; };
 		E95DFD082C656372007BC2CA /* ReplaceAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95DFD072C656372007BC2CA /* ReplaceAnimationView.swift */; };
 		E95DFD0A2C65637E007BC2CA /* ReplaceAnimationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95DFD092C656378007BC2CA /* ReplaceAnimationViewModel.swift */; };
+		E95DFD0C2C66B0E3007BC2CA /* RotateAnimationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95DFD0B2C66B0D7007BC2CA /* RotateAnimationViewModel.swift */; };
+		E95DFD0E2C66B0FC007BC2CA /* RotateAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95DFD0D2C66B0FC007BC2CA /* RotateAnimationView.swift */; };
 		E9FA94102C5EC89F00E9F5BD /* SwiftUISFSymbolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FA940F2C5EC89F00E9F5BD /* SwiftUISFSymbolsApp.swift */; };
 		E9FA94142C5EC8A100E9F5BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9FA94132C5EC8A100E9F5BD /* Assets.xcassets */; };
 		E9FA94172C5EC8A100E9F5BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9FA94162C5EC8A100E9F5BD /* Preview Assets.xcassets */; };
@@ -27,6 +29,8 @@
 		E95DFD022C62C5A6007BC2CA /* AnimationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationModel.swift; sourceTree = "<group>"; };
 		E95DFD072C656372007BC2CA /* ReplaceAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceAnimationView.swift; sourceTree = "<group>"; };
 		E95DFD092C656378007BC2CA /* ReplaceAnimationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceAnimationViewModel.swift; sourceTree = "<group>"; };
+		E95DFD0B2C66B0D7007BC2CA /* RotateAnimationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateAnimationViewModel.swift; sourceTree = "<group>"; };
+		E95DFD0D2C66B0FC007BC2CA /* RotateAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateAnimationView.swift; sourceTree = "<group>"; };
 		E9FA940C2C5EC89F00E9F5BD /* SwiftUISFSymbols.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUISFSymbols.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9FA940F2C5EC89F00E9F5BD /* SwiftUISFSymbolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISFSymbolsApp.swift; sourceTree = "<group>"; };
 		E9FA94132C5EC8A100E9F5BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -78,6 +82,8 @@
 		E95DFD042C656353007BC2CA /* Rotate */ = {
 			isa = PBXGroup;
 			children = (
+				E95DFD0B2C66B0D7007BC2CA /* RotateAnimationViewModel.swift */,
+				E95DFD0D2C66B0FC007BC2CA /* RotateAnimationView.swift */,
 			);
 			path = Rotate;
 			sourceTree = "<group>";
@@ -209,7 +215,9 @@
 				E95DFD082C656372007BC2CA /* ReplaceAnimationView.swift in Sources */,
 				E95DFCFC2C62B79F007BC2CA /* ListViewModel.swift in Sources */,
 				E95DFCFF2C62C0DE007BC2CA /* WiggleAnimationView.swift in Sources */,
+				E95DFD0E2C66B0FC007BC2CA /* RotateAnimationView.swift in Sources */,
 				E95DFD032C62C5AA007BC2CA /* AnimationModel.swift in Sources */,
+				E95DFD0C2C66B0E3007BC2CA /* RotateAnimationViewModel.swift in Sources */,
 				E95DFCFA2C62B799007BC2CA /* ListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
