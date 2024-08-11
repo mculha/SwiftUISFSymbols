@@ -15,33 +15,6 @@ final class WiggleAnimationViewModel {
     var animationConfiguration: AnimationConfiguration = .init()
     
     var effect: WiggleSymbolEffect {
-        return animationConfiguration.motionGroup.effect
-    }
-}
-
-final class AnimationConfiguration {
-    var motionGroup: MotionGroup = .byLayer
-}
-
-enum MotionGroup: CaseIterable {
-    case byLayer
-    case wholeSymbole
-    
-    var title: String {
-        switch self {
-        case .byLayer:
-            return "By Layer"
-        case .wholeSymbole:
-            return "Whole Symbole"
-        }
-    }
-    
-    var effect: WiggleSymbolEffect {
-        switch self {
-        case .byLayer:
-            return .wiggle.byLayer
-        case .wholeSymbole:
-            return .wiggle.wholeSymbol
-        }
+        return animationConfiguration.effect
     }
 }

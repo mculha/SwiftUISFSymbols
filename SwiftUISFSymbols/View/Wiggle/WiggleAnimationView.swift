@@ -30,7 +30,14 @@ struct WiggleAnimationView: View {
             }
             .pickerStyle(.segmented)
             .padding()
-
+            
+            Picker(selection: $viewModel.animationConfiguration.position, label: Text("Start Position")) {
+                ForEach(StartPosition.allCases, id: \.self) { position in
+                    Text(position.title)
+                }
+            }
+            .pickerStyle(.segmented)
+            .padding()
             
             Button("Toggle the animation") {
                 viewModel.isAnimating.toggle()

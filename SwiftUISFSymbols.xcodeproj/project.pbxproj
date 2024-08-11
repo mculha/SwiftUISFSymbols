@@ -21,6 +21,9 @@
 		E9FA94102C5EC89F00E9F5BD /* SwiftUISFSymbolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FA940F2C5EC89F00E9F5BD /* SwiftUISFSymbolsApp.swift */; };
 		E9FA94142C5EC8A100E9F5BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9FA94132C5EC8A100E9F5BD /* Assets.xcassets */; };
 		E9FA94172C5EC8A100E9F5BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9FA94162C5EC8A100E9F5BD /* Preview Assets.xcassets */; };
+		E9FDA5D82C69696200BEB6FB /* StartPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FDA5D72C69696200BEB6FB /* StartPosition.swift */; };
+		E9FDA5DA2C69696900BEB6FB /* MotionGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FDA5D92C69696900BEB6FB /* MotionGroup.swift */; };
+		E9FDA5DC2C69697600BEB6FB /* AnimationConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FDA5DB2C69697600BEB6FB /* AnimationConfiguration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +42,9 @@
 		E9FA940F2C5EC89F00E9F5BD /* SwiftUISFSymbolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISFSymbolsApp.swift; sourceTree = "<group>"; };
 		E9FA94132C5EC8A100E9F5BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9FA94162C5EC8A100E9F5BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E9FDA5D72C69696200BEB6FB /* StartPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPosition.swift; sourceTree = "<group>"; };
+		E9FDA5D92C69696900BEB6FB /* MotionGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionGroup.swift; sourceTree = "<group>"; };
+		E9FDA5DB2C69697600BEB6FB /* AnimationConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationConfiguration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 		E95DFCFD2C62C0CD007BC2CA /* Wiggle */ = {
 			isa = PBXGroup;
 			children = (
+				E9FDA5DB2C69697600BEB6FB /* AnimationConfiguration.swift */,
 				E95DFCFE2C62C0DE007BC2CA /* WiggleAnimationView.swift */,
 				E95DFD002C62C0E6007BC2CA /* WiggleAnimationViewModel.swift */,
 			);
@@ -129,6 +136,7 @@
 		E9FA940E2C5EC89F00E9F5BD /* SwiftUISFSymbols */ = {
 			isa = PBXGroup;
 			children = (
+				E9FDA5D42C69693900BEB6FB /* Enum */,
 				E95DFCF42C62B767007BC2CA /* View */,
 				E9FA940F2C5EC89F00E9F5BD /* SwiftUISFSymbolsApp.swift */,
 				E9FA94132C5EC8A100E9F5BD /* Assets.xcassets */,
@@ -143,6 +151,15 @@
 				E9FA94162C5EC8A100E9F5BD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E9FDA5D42C69693900BEB6FB /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				E9FDA5D92C69696900BEB6FB /* MotionGroup.swift */,
+				E9FDA5D72C69696200BEB6FB /* StartPosition.swift */,
+			);
+			path = Enum;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9FA94102C5EC89F00E9F5BD /* SwiftUISFSymbolsApp.swift in Sources */,
+				E9FDA5D82C69696200BEB6FB /* StartPosition.swift in Sources */,
 				E95DFD012C62C0E6007BC2CA /* WiggleAnimationViewModel.swift in Sources */,
 				E95DFD0A2C65637E007BC2CA /* ReplaceAnimationViewModel.swift in Sources */,
 				E95DFD082C656372007BC2CA /* ReplaceAnimationView.swift in Sources */,
@@ -223,6 +241,8 @@
 				E95DFD102C66B13E007BC2CA /* BreatheAnimationView.swift in Sources */,
 				E95DFCFF2C62C0DE007BC2CA /* WiggleAnimationView.swift in Sources */,
 				E95DFD0E2C66B0FC007BC2CA /* RotateAnimationView.swift in Sources */,
+				E9FDA5DA2C69696900BEB6FB /* MotionGroup.swift in Sources */,
+				E9FDA5DC2C69697600BEB6FB /* AnimationConfiguration.swift in Sources */,
 				E95DFD032C62C5AA007BC2CA /* AnimationModel.swift in Sources */,
 				E95DFD122C66B148007BC2CA /* BreatheAnimationViewModel.swift in Sources */,
 				E95DFD0C2C66B0E3007BC2CA /* RotateAnimationViewModel.swift in Sources */,
