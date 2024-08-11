@@ -18,10 +18,19 @@ struct WiggleAnimationView: View {
                 Image(systemName: "translate")
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 100, height: 100)
+                    .frame(width: 200, height: 200)
                     .font(.title)
-                    .symbolEffect(.wiggle.byLayer.clockwise, options: .repeat(.periodic(3, delay: 1.0)), value: viewModel.isAnimating)
+                    .symbolEffect(viewModel.effect, options: .repeat(.periodic(3, delay: 1.0)), value: viewModel.isAnimating)
             }
+            
+            Picker(selection: $viewModel.animationConfiguration.motionGroup, label: Text("Motion Group")) {
+                ForEach(MotionGroup.allCases, id: \.self) { motion in
+                    Text(motion.title)
+                }
+            }
+            .pickerStyle(.segmented)
+            .padding()
+
             
             Button("Toggle the animation") {
                 viewModel.isAnimating.toggle()
