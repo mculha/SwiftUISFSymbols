@@ -20,7 +20,7 @@ struct WiggleAnimationView: View {
                     .scaledToFit()
                     .frame(width: 150, height: 150)
                     .font(.title)
-                    .symbolEffect(viewModel.effect, options: .repeat(.periodic(3, delay: 1.0)), value: viewModel.isAnimating)
+                    .symbolEffect(viewModel.effect, options: .repeat(.periodic(2, delay: 0.5)), value: viewModel.isAnimating)
             }
             
             List {
@@ -67,6 +67,7 @@ struct MotionGroupView: View {
                 if motion == motionGroup {
                     Image(systemName: "checkmark")
                         .foregroundStyle(.green)
+                        .fontWeight(.bold)
                 }
             }
             .contentShape(Rectangle())
@@ -94,6 +95,7 @@ struct StartPositionView: View {
                 if position == self.position {
                     Image(systemName: "checkmark")
                         .foregroundStyle(.green)
+                        .fontWeight(.bold)
                 }
             }
             .contentShape(Rectangle())

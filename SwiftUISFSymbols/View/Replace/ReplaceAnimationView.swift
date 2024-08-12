@@ -13,19 +13,17 @@ struct ReplaceAnimationView: View {
     var body: some View {
         VStack(spacing: 25) {
             
-            Image(systemName: viewModel.isAnimating ? "wifi.slash" : "wifi")
-                .resizable()
-                .scaledToFit()
-                .frame(width: 100, height: 100)
-                .foregroundStyle(.blue)
-                .contentTransition(.symbolEffect(.replace.byLayer))
-                .onTapGesture {
-                    viewModel.isAnimating.toggle()
-                }
-            
+            Image(systemName: viewModel.isAnimating ? "bell.slash" : "bell")
+                .font(.system(size: 100))
+                .symbolRenderingMode(.palette)
+                .symbolEffect(.bounce, value: viewModel.isAnimating)
+                .contentTransition(.symbolEffect(.replace))
+                .foregroundStyle(.orange, .purple)
             
             Button("Toggle the animation") {
-                viewModel.isAnimating.toggle()
+                withAnimation {
+                    viewModel.isAnimating.toggle()
+                }
             }
             .foregroundStyle(.white)
             .font(.system(size: 16, weight: .semibold))
