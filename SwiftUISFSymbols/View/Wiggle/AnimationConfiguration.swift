@@ -6,7 +6,7 @@
 //
 import SwiftUI
 
-final class AnimationConfiguration {
+struct AnimationConfiguration {
     var motionGroup: MotionGroup = .byLayer
     var position: StartPosition = .left
     

@@ -18,26 +18,20 @@ struct WiggleAnimationView: View {
                 Image(systemName: "translate")
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 200, height: 200)
+                    .frame(width: 150, height: 150)
                     .font(.title)
                     .symbolEffect(viewModel.effect, options: .repeat(.periodic(3, delay: 1.0)), value: viewModel.isAnimating)
             }
             
-            Picker(selection: $viewModel.animationConfiguration.motionGroup, label: Text("Motion Group")) {
-                ForEach(MotionGroup.allCases, id: \.self) { motion in
-                    Text(motion.title)
+            List {
+                Section("Motion Group") {
+                    MotionGroupView(motionGroup: $viewModel.animationConfiguration.motionGroup)
+                }
+                
+                Section("Start Position") {
+                    StartPositionView(position: $viewModel.animationConfiguration.position)
                 }
             }
-            .pickerStyle(.segmented)
-            .padding()
-            
-            Picker(selection: $viewModel.animationConfiguration.position, label: Text("Start Position")) {
-                ForEach(StartPosition.allCases, id: \.self) { position in
-                    Text(position.title)
-                }
-            }
-            .pickerStyle(.segmented)
-            .padding()
             
             Button("Toggle the animation") {
                 viewModel.isAnimating.toggle()
@@ -56,4 +50,58 @@ struct WiggleAnimationView: View {
 
 #Preview {
     WiggleAnimationView()
+}
+
+struct MotionGroupView: View {
+    
+    @Binding var motionGroup: MotionGroup
+    
+    var body: some View {
+        ForEach(MotionGroup.allCases, id: \.self) { motion in
+            HStack {
+                Text(motion.title)
+                    .font(.system(size: 14))
+                
+                Spacer()
+                
+                if motion == motionGroup {
+                    Image(systemName: "checkmark")
+                        .foregroundStyle(.green)
+                }
+            }
+            .contentShape(Rectangle())
+            .onTapGesture {
+                withAnimation {
+                    motionGroup = motion
+                }
+            }
+        }
+    }
+}
+
+struct StartPositionView: View {
+    
+    @Binding var position: StartPosition
+    
+    var body: some View {
+        ForEach(StartPosition.allCases, id: \.self) { position in
+            HStack {
+                Text(position.title)
+                    .font(.system(size: 14))
+                
+                Spacer()
+                
+                if position == self.position {
+                    Image(systemName: "checkmark")
+                        .foregroundStyle(.green)
+                }
+            }
+            .contentShape(Rectangle())
+            .onTapGesture {
+                withAnimation {
+                    self.position = position
+                }
+            }
+        }
+    }
 }
