@@ -8,5 +8,6 @@
 import SwiftUI
 
 @Observable final class RotateAnimationViewModel {
-    
+    var isAnimating: Bool = false
+
 }
