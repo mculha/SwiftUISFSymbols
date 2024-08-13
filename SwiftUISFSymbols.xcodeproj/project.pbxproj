@@ -19,6 +19,7 @@
 		E95DFD102C66B13E007BC2CA /* BreatheAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95DFD0F2C66B13E007BC2CA /* BreatheAnimationView.swift */; };
 		E95DFD122C66B148007BC2CA /* BreatheAnimationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95DFD112C66B144007BC2CA /* BreatheAnimationViewModel.swift */; };
 		E9DF78632C6C0E6F000BD522 /* RotateImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DF78622C6C0E6F000BD522 /* RotateImageView.swift */; };
+		E9DF78652C6C0EE6000BD522 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9DF78642C6C0EE6000BD522 /* Colors.xcassets */; };
 		E9FA94102C5EC89F00E9F5BD /* SwiftUISFSymbolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FA940F2C5EC89F00E9F5BD /* SwiftUISFSymbolsApp.swift */; };
 		E9FA94142C5EC8A100E9F5BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9FA94132C5EC8A100E9F5BD /* Assets.xcassets */; };
 		E9FA94172C5EC8A100E9F5BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9FA94162C5EC8A100E9F5BD /* Preview Assets.xcassets */; };
@@ -40,6 +41,7 @@
 		E95DFD0F2C66B13E007BC2CA /* BreatheAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheAnimationView.swift; sourceTree = "<group>"; };
 		E95DFD112C66B144007BC2CA /* BreatheAnimationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheAnimationViewModel.swift; sourceTree = "<group>"; };
 		E9DF78622C6C0E6F000BD522 /* RotateImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateImageView.swift; sourceTree = "<group>"; };
+		E9DF78642C6C0EE6000BD522 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		E9FA940C2C5EC89F00E9F5BD /* SwiftUISFSymbols.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUISFSymbols.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9FA940F2C5EC89F00E9F5BD /* SwiftUISFSymbolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISFSymbolsApp.swift; sourceTree = "<group>"; };
 		E9FA94132C5EC8A100E9F5BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 				E95DFCF42C62B767007BC2CA /* View */,
 				E9FA940F2C5EC89F00E9F5BD /* SwiftUISFSymbolsApp.swift */,
 				E9FA94132C5EC8A100E9F5BD /* Assets.xcassets */,
+				E9DF78642C6C0EE6000BD522 /* Colors.xcassets */,
 				E9FA94152C5EC8A100E9F5BD /* Preview Content */,
 			);
 			path = SwiftUISFSymbols;
@@ -223,6 +226,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9DF78652C6C0EE6000BD522 /* Colors.xcassets in Resources */,
 				E9FA94172C5EC8A100E9F5BD /* Preview Assets.xcassets in Resources */,
 				E9FA94142C5EC8A100E9F5BD /* Assets.xcassets in Resources */,
 			);

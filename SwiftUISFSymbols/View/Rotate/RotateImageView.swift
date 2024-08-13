@@ -16,7 +16,7 @@ struct RotateImageView: View {
         Image(systemName: systemName)
             .font(.system(size: 60))
             .symbolRenderingMode(.palette)
-            .foregroundStyle(Color(red: 243/255, green: 58/255, blue: 106/255), Color(red: 243/255, green: 58/255, blue: 106/255, opacity: 0.7))
+            .foregroundStyle(Color(.rose), Color(.rose).opacity(0.7))
             .symbolEffect(.rotate, value: isAnimating)
     }
 }
