@@ -8,5 +8,6 @@
 import SwiftUI
 
 @Observable final class BreatheAnimationViewModel {
-    
+    var isAnimating: Bool = false
+
 }
