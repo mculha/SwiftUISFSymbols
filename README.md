@@ -8,3 +8,8 @@
 [**Wiggle**](https://developer.apple.com/documentation/symbols/symboleffect/4429718-wiggle) animation is still in Beta. It needs iOS 18 or above to work.
 
 https://github.com/user-attachments/assets/848d431d-a0e4-41cf-a6a8-c3f27ff784f5
+
+### Rotate
+[**Rotate**](https://developer.apple.com/documentation/symbols/symboleffect/4429717-rotate) animation is also in Beta. It needs iOS 18 or above to work.
+
+https://github.com/user-attachments/assets/6a28c367-7f6d-4a00-b5ed-974d959d1ede
