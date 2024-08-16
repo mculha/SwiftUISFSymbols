@@ -1,0 +1,5 @@
+# Symbol Effect
+
+[**SF Symbol**](https://developer.apple.com/sf-symbols/) is a library of over 6,000 symbols that are designed to integrate seamlessly with San Francisco, the system font for Apple platforms. Symbols come in nine weights and three scales, automatically align with text, and can be exported and edited using vector graphics editing tools to create custom symbols with shared design characteristics and accessibility features. SF Symbols 6 brings new and enhanced animations, updated annotation tools, and over 800 new symbols.
+
+[**symbolEffect**](https://developer.apple.com/documentation/swiftui/view/symboleffect(_:options:value:)) is a modifier in SwiftUI that applies animations and effects to SF Symbols. It allows you to add dynamic visual enhancements like scaling, rotation, or color changes to the symbols, providing a way to create engaging and interactive UI elements. 
