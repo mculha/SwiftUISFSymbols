@@ -19,8 +19,10 @@ struct WiggleAnimationView: View {
                     .resizable()
                     .scaledToFit()
                     .frame(width: 150, height: 150)
+                    .symbolRenderingMode(.palette)
+                    .foregroundStyle(Color(.rose), Color(.rose).opacity(0.7))
                     .font(.title)
-                    .symbolEffect(viewModel.effect, options: .repeat(.periodic(2, delay: 0.5)), value: viewModel.isAnimating)
+                    .symbolEffect(viewModel.effect, value: viewModel.isAnimating)
             }
             
             List {
