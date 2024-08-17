@@ -13,3 +13,14 @@ https://github.com/user-attachments/assets/848d431d-a0e4-41cf-a6a8-c3f27ff784f5
 [**Rotate**](https://developer.apple.com/documentation/symbols/symboleffect/4429717-rotate) animation is also in Beta. It needs iOS 18 or above to work.
 
 https://github.com/user-attachments/assets/6a28c367-7f6d-4a00-b5ed-974d959d1ede
+
+### Breathe
+[**Breathe**](https://developer.apple.com/documentation/symbols/symboleffect/4429716-breathe) animation is the same as Rotate and Wiggle. It needs iOS 18 or above to work.
+
+https://github.com/user-attachments/assets/88788e2a-aa33-4ee3-a607-4c3dba855d85
+
+### Replace
+[**Replace**](https://developer.apple.com/documentation/symbols/symboleffect/4197864-replace) animation needs iOS 17 or above to work.
+> An animation that replaces the layers of one symbol-based image with those of another.
+
+https://github.com/user-attachments/assets/fc2c561a-3ba4-4909-b472-b2a2d98b7d7a
