@@ -18,6 +18,8 @@
 		E95DFD0E2C66B0FC007BC2CA /* RotateAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95DFD0D2C66B0FC007BC2CA /* RotateAnimationView.swift */; };
 		E95DFD102C66B13E007BC2CA /* BreatheAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95DFD0F2C66B13E007BC2CA /* BreatheAnimationView.swift */; };
 		E95DFD122C66B148007BC2CA /* BreatheAnimationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95DFD112C66B144007BC2CA /* BreatheAnimationViewModel.swift */; };
+		E99AED242C728DC200F4E980 /* VariableColorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99AED232C728DBC00F4E980 /* VariableColorViewModel.swift */; };
+		E99AED262C728DCD00F4E980 /* VariableColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99AED252C728DCD00F4E980 /* VariableColorView.swift */; };
 		E9DF78632C6C0E6F000BD522 /* RotateImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DF78622C6C0E6F000BD522 /* RotateImageView.swift */; };
 		E9DF78652C6C0EE6000BD522 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9DF78642C6C0EE6000BD522 /* Colors.xcassets */; };
 		E9F3A1EB2C6E9F94001B77BE /* BreatheImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F3A1EA2C6E9F94001B77BE /* BreatheImageView.swift */; };
@@ -41,6 +43,8 @@
 		E95DFD0D2C66B0FC007BC2CA /* RotateAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateAnimationView.swift; sourceTree = "<group>"; };
 		E95DFD0F2C66B13E007BC2CA /* BreatheAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheAnimationView.swift; sourceTree = "<group>"; };
 		E95DFD112C66B144007BC2CA /* BreatheAnimationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheAnimationViewModel.swift; sourceTree = "<group>"; };
+		E99AED232C728DBC00F4E980 /* VariableColorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableColorViewModel.swift; sourceTree = "<group>"; };
+		E99AED252C728DCD00F4E980 /* VariableColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableColorView.swift; sourceTree = "<group>"; };
 		E9DF78622C6C0E6F000BD522 /* RotateImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateImageView.swift; sourceTree = "<group>"; };
 		E9DF78642C6C0EE6000BD522 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		E9F3A1EA2C6E9F94001B77BE /* BreatheImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheImageView.swift; sourceTree = "<group>"; };
@@ -67,6 +71,7 @@
 		E95DFCF42C62B767007BC2CA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E99AED222C728DB200F4E980 /* VariableColor */,
 				E95DFD062C65635E007BC2CA /* Replace */,
 				E95DFD052C656358007BC2CA /* Breathe */,
 				E95DFD042C656353007BC2CA /* Rotate */,
@@ -123,6 +128,15 @@
 				E95DFD072C656372007BC2CA /* ReplaceAnimationView.swift */,
 			);
 			path = Replace;
+			sourceTree = "<group>";
+		};
+		E99AED222C728DB200F4E980 /* VariableColor */ = {
+			isa = PBXGroup;
+			children = (
+				E99AED232C728DBC00F4E980 /* VariableColorViewModel.swift */,
+				E99AED252C728DCD00F4E980 /* VariableColorView.swift */,
+			);
+			path = VariableColor;
 			sourceTree = "<group>";
 		};
 		E9FA94032C5EC89F00E9F5BD = {
@@ -245,6 +259,7 @@
 				E9FA94102C5EC89F00E9F5BD /* SwiftUISFSymbolsApp.swift in Sources */,
 				E9F3A1EB2C6E9F94001B77BE /* BreatheImageView.swift in Sources */,
 				E9FDA5D82C69696200BEB6FB /* StartPosition.swift in Sources */,
+				E99AED262C728DCD00F4E980 /* VariableColorView.swift in Sources */,
 				E95DFD012C62C0E6007BC2CA /* WiggleAnimationViewModel.swift in Sources */,
 				E95DFD0A2C65637E007BC2CA /* ReplaceAnimationViewModel.swift in Sources */,
 				E95DFD082C656372007BC2CA /* ReplaceAnimationView.swift in Sources */,
@@ -256,6 +271,7 @@
 				E9FDA5DC2C69697600BEB6FB /* AnimationConfiguration.swift in Sources */,
 				E95DFD032C62C5AA007BC2CA /* AnimationModel.swift in Sources */,
 				E95DFD122C66B148007BC2CA /* BreatheAnimationViewModel.swift in Sources */,
+				E99AED242C728DC200F4E980 /* VariableColorViewModel.swift in Sources */,
 				E9DF78632C6C0E6F000BD522 /* RotateImageView.swift in Sources */,
 				E95DFD0C2C66B0E3007BC2CA /* RotateAnimationViewModel.swift in Sources */,
 				E95DFCFA2C62B799007BC2CA /* ListView.swift in Sources */,

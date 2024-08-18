@@ -16,6 +16,7 @@ struct AnimationModel: Hashable {
         case rotate
         case breathe
         case replace
+        case variableColor
         
         @ViewBuilder
         var destination: some View {
@@ -28,6 +29,8 @@ struct AnimationModel: Hashable {
                 RotateAnimationView()
             case .replace:
                 ReplaceAnimationView()
+            case .variableColor:
+                VariableColorView()
             }
         }
     }

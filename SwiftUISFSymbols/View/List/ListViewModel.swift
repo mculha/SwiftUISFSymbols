@@ -15,5 +15,6 @@ final class ListViewModel {
         AnimationModel(name: "Rotate", type: .rotate),
         AnimationModel(name: "Breathe", type: .breathe),
         AnimationModel(name: "Replace", type: .replace),
+        AnimationModel(name: "Variable Color", type: .variableColor),
     ]
 }
