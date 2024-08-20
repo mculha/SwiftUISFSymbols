@@ -24,3 +24,9 @@ https://github.com/user-attachments/assets/88788e2a-aa33-4ee3-a607-4c3dba855d85
 > An animation that replaces the layers of one symbol-based image with those of another.
 
 https://github.com/user-attachments/assets/fc2c561a-3ba4-4909-b472-b2a2d98b7d7a
+
+### Variable Color
+[**Variable Color**](https://developer.apple.com/documentation/symbols/symboleffect/4197866-variablecolor) animation needs iOS 17 or above to work.
+> An animation that replaces the opacity of variable layers in a symbol-based image in a repeatable sequence.
+
+https://github.com/user-attachments/assets/093632c7-ae15-4330-bb09-4083e7371660
