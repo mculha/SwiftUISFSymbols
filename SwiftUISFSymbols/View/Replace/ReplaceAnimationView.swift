@@ -16,7 +16,7 @@ struct ReplaceAnimationView: View {
             Image(systemName: viewModel.isAnimating ? "bell.slash" : "bell")
                 .font(.system(size: 100))
                 .symbolRenderingMode(.palette)
-                .symbolEffect(.bounce, value: viewModel.isAnimating)
+                .symbolEffect(.bounce, isActive: viewModel.isAnimating)
                 .contentTransition(.symbolEffect(.replace))
                 .foregroundStyle(.orange, .purple)
             

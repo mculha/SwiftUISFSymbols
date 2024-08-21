@@ -16,6 +16,6 @@ struct BreatheImageView: View {
             .font(.system(size: 60))
             .symbolRenderingMode(.palette)
             .foregroundStyle(Color(.rose), Color(.rose).opacity(0.7))
-            .symbolEffect(.breathe.byLayer, options: .repeat(.periodic(3)), value: isAnimating)
+            .symbolEffect(.breathe.byLayer, options: .repeat(.periodic(3)), isActive: isAnimating)
     }
 }

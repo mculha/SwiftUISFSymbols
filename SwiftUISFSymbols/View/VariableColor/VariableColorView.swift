@@ -14,7 +14,7 @@ struct VariableColorView: View {
     var body: some View {
         VStack(spacing: 25) {
             Image(systemName: "square.stack.3d.up")
-                .symbolEffect(.variableColor.reversing.cumulative, options: .repeat(.continuous).speed(3), value: viewModel.isAnimating)
+                .symbolEffect(.variableColor.reversing.cumulative, options: .repeat(.continuous).speed(3), isActive: viewModel.isAnimating)
                 .font(.system(size: 60))
                 .symbolRenderingMode(.palette)
                 .foregroundStyle(Color(.rose), Color(.rose).opacity(0.7))

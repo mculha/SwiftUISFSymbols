@@ -22,7 +22,7 @@ struct WiggleAnimationView: View {
                     .symbolRenderingMode(.palette)
                     .foregroundStyle(Color(.rose), Color(.rose).opacity(0.7))
                     .font(.title)
-                    .symbolEffect(viewModel.effect, value: viewModel.isAnimating)
+                    .symbolEffect(viewModel.effect, isActive: viewModel.isAnimating)
             }
             
             List {
