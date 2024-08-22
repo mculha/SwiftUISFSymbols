@@ -16,5 +16,6 @@ final class ListViewModel {
         AnimationModel(name: "Breathe", type: .breathe),
         AnimationModel(name: "Replace", type: .replace),
         AnimationModel(name: "Variable Color", type: .variableColor),
+        AnimationModel(name: "Bounce", type: .bounce),
     ]
 }
