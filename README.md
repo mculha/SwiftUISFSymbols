@@ -30,3 +30,12 @@ https://github.com/user-attachments/assets/fc2c561a-3ba4-4909-b472-b2a2d98b7d7a
 > An animation that replaces the opacity of variable layers in a symbol-based image in a repeatable sequence.
 
 https://github.com/user-attachments/assets/093632c7-ae15-4330-bb09-4083e7371660
+
+### Bounce
+[**Bounce**](https://developer.apple.com/documentation/symbols/symboleffect/4197860-bounce) animation needs iOS 17 or above to work.
+> An animation that applies a transitory scaling effect, or bounce, to the layers in a symbol-based image separately or as a whole.
+
+https://github.com/user-attachments/assets/0093e103-3023-4ca6-9dcd-e1444589a218
+
+
+
