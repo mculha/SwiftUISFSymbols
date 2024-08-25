@@ -18,6 +18,7 @@ struct AnimationModel: Hashable {
         case replace
         case variableColor
         case bounce
+        case pulse
         
         @ViewBuilder
         var destination: some View {
@@ -34,6 +35,8 @@ struct AnimationModel: Hashable {
                 VariableColorView()
             case .bounce:
                 BounceView()
+            case .pulse:
+                PulseView()
             }
         }
     }
