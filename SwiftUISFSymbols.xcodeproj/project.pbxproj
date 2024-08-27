@@ -27,6 +27,8 @@
 		E9F3A1EB2C6E9F94001B77BE /* BreatheImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F3A1EA2C6E9F94001B77BE /* BreatheImageView.swift */; };
 		E9F76A462C7B9070009AC401 /* PulseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F76A452C7B9070009AC401 /* PulseView.swift */; };
 		E9F76A482C7B9085009AC401 /* PulseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F76A472C7B9082009AC401 /* PulseViewModel.swift */; };
+		E9F76A4B2C7E6524009AC401 /* ScaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F76A4A2C7E6524009AC401 /* ScaleView.swift */; };
+		E9F76A4D2C7E652A009AC401 /* ScaleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F76A4C2C7E6527009AC401 /* ScaleViewModel.swift */; };
 		E9FA94102C5EC89F00E9F5BD /* SwiftUISFSymbolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FA940F2C5EC89F00E9F5BD /* SwiftUISFSymbolsApp.swift */; };
 		E9FA94142C5EC8A100E9F5BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9FA94132C5EC8A100E9F5BD /* Assets.xcassets */; };
 		E9FA94172C5EC8A100E9F5BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9FA94162C5EC8A100E9F5BD /* Preview Assets.xcassets */; };
@@ -56,6 +58,8 @@
 		E9F3A1EA2C6E9F94001B77BE /* BreatheImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheImageView.swift; sourceTree = "<group>"; };
 		E9F76A452C7B9070009AC401 /* PulseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseView.swift; sourceTree = "<group>"; };
 		E9F76A472C7B9082009AC401 /* PulseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseViewModel.swift; sourceTree = "<group>"; };
+		E9F76A4A2C7E6524009AC401 /* ScaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleView.swift; sourceTree = "<group>"; };
+		E9F76A4C2C7E6527009AC401 /* ScaleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleViewModel.swift; sourceTree = "<group>"; };
 		E9FA940C2C5EC89F00E9F5BD /* SwiftUISFSymbols.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUISFSymbols.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9FA940F2C5EC89F00E9F5BD /* SwiftUISFSymbolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISFSymbolsApp.swift; sourceTree = "<group>"; };
 		E9FA94132C5EC8A100E9F5BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -79,6 +83,7 @@
 		E95DFCF42C62B767007BC2CA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E9F76A492C7E651E009AC401 /* Scale */,
 				E9F76A442C7B9065009AC401 /* Pulse */,
 				E9EF67932C77D73A00322310 /* Bounce */,
 				E99AED222C728DB200F4E980 /* VariableColor */,
@@ -165,6 +170,15 @@
 				E9F76A452C7B9070009AC401 /* PulseView.swift */,
 			);
 			path = Pulse;
+			sourceTree = "<group>";
+		};
+		E9F76A492C7E651E009AC401 /* Scale */ = {
+			isa = PBXGroup;
+			children = (
+				E9F76A4C2C7E6527009AC401 /* ScaleViewModel.swift */,
+				E9F76A4A2C7E6524009AC401 /* ScaleView.swift */,
+			);
+			path = Scale;
 			sourceTree = "<group>";
 		};
 		E9FA94032C5EC89F00E9F5BD = {
@@ -301,10 +315,12 @@
 				E9FDA5DC2C69697600BEB6FB /* AnimationConfiguration.swift in Sources */,
 				E95DFD032C62C5AA007BC2CA /* AnimationModel.swift in Sources */,
 				E95DFD122C66B148007BC2CA /* BreatheAnimationViewModel.swift in Sources */,
+				E9F76A4D2C7E652A009AC401 /* ScaleViewModel.swift in Sources */,
 				E99AED242C728DC200F4E980 /* VariableColorViewModel.swift in Sources */,
 				E9DF78632C6C0E6F000BD522 /* RotateImageView.swift in Sources */,
 				E95DFD0C2C66B0E3007BC2CA /* RotateAnimationViewModel.swift in Sources */,
 				E9F76A462C7B9070009AC401 /* PulseView.swift in Sources */,
+				E9F76A4B2C7E6524009AC401 /* ScaleView.swift in Sources */,
 				E9EF67952C77D74100322310 /* BounceView.swift in Sources */,
 				E95DFCFA2C62B799007BC2CA /* ListView.swift in Sources */,
 			);

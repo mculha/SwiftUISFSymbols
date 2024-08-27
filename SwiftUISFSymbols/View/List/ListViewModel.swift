@@ -18,5 +18,6 @@ final class ListViewModel {
         AnimationModel(name: "Variable Color", type: .variableColor),
         AnimationModel(name: "Bounce", type: .bounce),
         AnimationModel(name: "Pulse", type: .pulse),
+        AnimationModel(name: "Scale", type: .scale)
     ]
 }
