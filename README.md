@@ -37,5 +37,8 @@ https://github.com/user-attachments/assets/093632c7-ae15-4330-bb09-4083e7371660
 
 https://github.com/user-attachments/assets/0093e103-3023-4ca6-9dcd-e1444589a218
 
+### Pulse
+[**Pulse**](https://developer.apple.com/documentation/symbols/symboleffect/4197863-pulse) animation needs iOS 17 or above to work.
+> An animation that fades the opacity of some or all layers in a symbol-based image.
 
-
+https://github.com/user-attachments/assets/b6ce574b-f777-40c4-abdf-09264b60d26b
